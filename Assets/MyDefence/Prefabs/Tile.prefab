@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1714891078452225293}
   - component: {fileID: 7467305566738864546}
   - component: {fileID: 385609102879535364}
+  - component: {fileID: 8539392708172128319}
   m_Layer: 0
   m_Name: Tile
   m_TagString: Untagged
@@ -108,3 +109,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8539392708172128319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7612517135404684899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68c562b59d10e9242a48df7d92b23a90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverColor: {r: 0.5436805, g: 1, b: 0.495283, a: 1}
+  hoverMaterial: {fileID: 2100000, guid: 9a05be853d8fcf54a9d8bdaea77a1fec, type: 2}
+  towerPrefab: {fileID: 2354840592347345331, guid: e61eb8ab9ce8f024998d97281823fd27, type: 3}
